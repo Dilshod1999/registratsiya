@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <style>
+      .asosiy {
+        margin: auto 450px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="asosiy">
+      <h2>User Input Form</h2>
+      <form action="#">
+        <fieldset>
+          <legend>Personal Particular</legend>
+          <label for="name">Name:</label>
+          <input type="text" required id="name" name="Name" />
+          <br /><br />
+          <label for="password">Password:</label>
+          <input type="password" required id="password" name="password" />
+          <br /><br />
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" id="male" /><label for="male"
+            >Male</label
+          >
+          <input type="radio" name="gender" id="female" /><label for="female"
+            >Female</label
+          >
+          <br /><br />
+          <label for="age">Age:</label>
+          <input type="number" required placeholder="< 1year old" />
+        </fieldset>
+        <fieldset>
+          <legend>Languages</legend>
+          <input type="checkbox" id="java" name="dasturlash" />
+          <label for="java">Java</label>
+          <input type="checkbox" id="c" name="dasturlash" />
+          <label for="c">C/C++</label>
+          <input type="checkbox" id="c#" name="dasturlash" />
+          <label for="c#">C#</label>
+        </fieldset>
+        <fieldset>
+          <legend>Instruction</legend>
+          <textarea
+            name="word"
+            id="comment"
+            cols="50"
+            rows="10"
+            placeholder="Enter your instruction here..."
+          ></textarea>
+        </fieldset>
+        <br />
+        <input type="submit" value="SEND" />
+        <input type="submit" value="CLEAR" />
+      </form>
+    </div>
+  </body>
+</html>
